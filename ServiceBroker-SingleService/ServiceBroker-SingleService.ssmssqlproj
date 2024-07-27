@@ -1,0 +1,69 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="ServiceBroker-SingleService">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items />
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="a) Single-Service-Config.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>a) Single-Service-Config.sql</FullPath>
+        </FileNode>
+        <FileNode Name="b) [usp_SendWhoIsActiveMessage].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>b) [usp_SendWhoIsActiveMessage].sql</FullPath>
+        </FileNode>
+        <FileNode Name="b) Send-Message.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>b) Send-Message.sql</FullPath>
+        </FileNode>
+        <FileNode Name="c) [usp_ProcessWhoIsActiveMessage].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>c) [usp_ProcessWhoIsActiveMessage].sql</FullPath>
+        </FileNode>
+        <FileNode Name="c) Process-Message.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>c) Process-Message.sql</FullPath>
+        </FileNode>
+        <FileNode Name="capture11a_singleserviceconfig.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>capture11a_singleserviceconfig.sql</FullPath>
+        </FileNode>
+        <FileNode Name="capture11b_sendmessage.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>capture11b_sendmessage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="capture11c_processmessage.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>capture11c_processmessage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Test-Multi-Job-Execution-Scenario.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Test-Multi-Job-Execution-Scenario.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

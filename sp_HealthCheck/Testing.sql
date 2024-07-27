@@ -1,0 +1,1 @@
+EXEC [dbo].[sp_HealthCheck] '?'

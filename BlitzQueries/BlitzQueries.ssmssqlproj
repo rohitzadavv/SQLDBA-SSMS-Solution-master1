@@ -1,0 +1,287 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="BlitzQueries">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local):MSI\ajayd">
+          <Created>2019-08-22T17:19:33.2581521+05:30</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="LOCALHOST:MSI\ajayd">
+          <Created>2019-10-04T19:57:18.2935143+05:30</Created>
+          <Type>SQL</Type>
+          <Server>LOCALHOST</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQL-A:sa">
+          <Created>2020-07-25T15:51:01.3754048+05:30</Created>
+          <Type>SQL</Type>
+          <Server>SQL-A</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQL-A\V17:sa">
+          <Created>2020-09-16T15:11:41.0890883+05:30</Created>
+          <Type>SQL</Type>
+          <Server>SQL-A\V17</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="__DiagManager-PssDiag-SqlNexus.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>__DiagManager-PssDiag-SqlNexus.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Blitz.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Blitz.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BlitzCache.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BlitzCache.sql</FullPath>
+        </FileNode>
+        <FileNode Name="blitzFirst.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>blitzFirst.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BlitzIndex.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BlitzIndex.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Blocking Tree.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Blocking Tree.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Buffer-Pool-Analysis.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Buffer-Pool-Analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Configure_PSSDiag.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Configure_PSSDiag.sql</FullPath>
+        </FileNode>
+        <FileNode Name="CREATE TABLE [dbo].[whatIsRunning].sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>CREATE TABLE [dbo].[whatIsRunning].sql</FullPath>
+        </FileNode>
+        <FileNode Name="Db-Design-Analysis.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Db-Design-Analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Detect n Reduce High VLFs - All Dbs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Detect n Reduce High VLFs - All Dbs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Detect n Reduce High VLFs.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Detect n Reduce High VLFs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Find-Indirect-Connections.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Find-Indirect-Connections.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Find-Statistics.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL-A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL-A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>Find-Statistics.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Fragmentation-Analysis.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Fragmentation-Analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Other queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Other queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Plan-Cache-Analysis.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Plan-Cache-Analysis.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Querying Deadlocks From System_Health XEvent.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Querying Deadlocks From System_Health XEvent.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RingBuffer-PerfMon-CPU-Memory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>RingBuffer-PerfMon-CPU-Memory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2008 R2 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2008 R2 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2012 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2012 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2014 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2014 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2016 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2016 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server 2017 Diagnostic Information Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SQL Server 2017 Diagnostic Information Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Very-Large-Databases-Optimization.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Very-Large-Databases-Optimization.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WaitStats-Short-Period.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WaitStats-Short-Period.sql</FullPath>
+        </FileNode>
+        <FileNode Name="WhatIsRunning.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>WhatIsRunning.sql</FullPath>
+        </FileNode>
+        <FileNode Name="who_is_active_v11_32(Modified).sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>who_is_active_v11_32(Modified).sql</FullPath>
+        </FileNode>
+        <FileNode Name="whoIsActive.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>whoIsActive.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="DiagManager13.0.1600.32.zip">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>DiagManager13.0.1600.32.zip</FullPath>
+        </FileNode>
+        <FileNode Name="PerfmonCounters_Disk_CPU_Memory_Network.PerfmonCfg">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PerfmonCounters_Disk_CPU_Memory_Network.PerfmonCfg</FullPath>
+        </FileNode>
+        <FileNode Name="pssd.zip">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>pssd.zip</FullPath>
+        </FileNode>
+        <FileNode Name="sp_whoIsActive.gif">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_whoIsActive.gif</FullPath>
+        </FileNode>
+        <FileNode Name="SQLNexus.6.0.0.8.zip">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLNexus.6.0.0.8.zip</FullPath>
+        </FileNode>
+        <FileNode Name="SQLPerf_General.xml">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLPerf_General.xml</FullPath>
+        </FileNode>
+        <FileNode Name="WhatIsRunning.gif">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>WhatIsRunning.gif</FullPath>
+        </FileNode>
+        <FileNode Name="WhatIsRunning2.gif">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>WhatIsRunning2.gif</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

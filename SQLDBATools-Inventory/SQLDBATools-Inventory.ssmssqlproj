@@ -1,0 +1,443 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="SQLDBATools-Inventory">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local):MSI\ajayd">
+          <Created>2019-10-17T00:03:20.0126408+05:30</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="LOCALHOST:MSI\ajayd">
+          <Created>2020-01-30T12:13:23.0613084+05:30</Created>
+          <Type>SQL</Type>
+          <Server>LOCALHOST</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>DBA</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="MSI:MSI\ajayd">
+          <Created>2020-08-08T01:08:16.6761132+05:30</Created>
+          <Type>SQL</Type>
+          <Server>MSI</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQL-A:sa">
+          <Created>2020-07-26T10:16:08.1371138+05:30</Created>
+          <Type>SQL</Type>
+          <Server>SQL-A</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="SQL-A\V17:sa">
+          <Created>2020-09-13T09:43:04.2297811+05:30</Created>
+          <Type>SQL</Type>
+          <Server>SQL-A\V17</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="(dba) Collect Metrics.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:SQL-A:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>SQL-A</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>(dba) Collect Metrics.sql</FullPath>
+        </FileNode>
+        <FileNode Name="(dba) Collect XEvents.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>(dba) Collect XEvents.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__00) Normal Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>__00) Normal Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__01) SQLDBATools - Create Database.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__01) SQLDBATools - Create Database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__01) SQLDBATools_DDL - Create Tables.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>__01) SQLDBATools_DDL - Create Tables.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__01) SQLDBATools_DDL - Procedures.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__01) SQLDBATools_DDL - Procedures.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__01) SQLDBATools_DDLs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__01) SQLDBATools_DDLs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__02) CollectionErrors.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__02) CollectionErrors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__02) Scripts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__02) Scripts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__03) Issues_In_Inventory.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__03) Issues_In_Inventory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__04) Common Errors.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__04) Common Errors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__05) Job-DataCollection.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__05) Job-DataCollection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__06_Setup [DBA] db.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__06_Setup [DBA] db.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__07) HADR Alerts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__07) HADR Alerts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__08) Job-JAMS-DataCollection.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__08) Job-JAMS-DataCollection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="__09) PowerShell Collection Failure Mail.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>__09) PowerShell Collection Failure Mail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Agent Job Testing.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Agent Job Testing.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BackupInfo as XML.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>BackupInfo as XML.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Common Errors.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Common Errors.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseMail_Using_GMail.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MSI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MSI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DatabaseMail_Using_GMail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="DatabaseMailProfile.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>DatabaseMailProfile.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.usp_GetMail_4_JAMS.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.usp_GetMail_4_JAMS.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.usp_GetMail_4_SQLDBATools.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.usp_GetMail_4_SQLDBATools.sql</FullPath>
+        </FileNode>
+        <FileNode Name="ExecuteScripts4AllServers.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>ExecuteScripts4AllServers.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Grafana-Queries.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Grafana-Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Grafana-WaitStats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Grafana-WaitStats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HADR Alerts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>HADR Alerts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Issues_In_Inventory.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Issues_In_Inventory.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Job [SQLDBATools - DataCollection - EventLogs].sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Job [SQLDBATools - DataCollection - EventLogs].sql</FullPath>
+        </FileNode>
+        <FileNode Name="Job-DataCollection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Job-DataCollection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Job-JAMS-DataCollection.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Job-JAMS-DataCollection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Mailer - Database Backup History - Date.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Mailer - Database Backup History - Date.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Monitoring Queries.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Monitoring Queries.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PowerShell Collection Failure Mail.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PowerShell Collection Failure Mail.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Powershell Script - CmdExec.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Powershell Script - CmdExec.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Powershell Script - xp_cmdshell.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Powershell Script - xp_cmdshell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PS-meta-data-running-script.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:MSI:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>MSI</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PS-meta-data-running-script.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PS-perfmon-collector-logman.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PS-perfmon-collector-logman.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PS-perfmon-collector-push-to-sqlserver.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PS-perfmon-collector-push-to-sqlserver.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PS-perfmon-remove-imported-files.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PS-perfmon-remove-imported-files.sql</FullPath>
+        </FileNode>
+        <FileNode Name="QRY - (dba) Collect Metrics - Purge Aggregate.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QRY - (dba) Collect Metrics - Purge Aggregate.sql</FullPath>
+        </FileNode>
+        <FileNode Name="QRY - (dba) Collect Metrics - Purge Tables and Files.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>QRY - (dba) Collect Metrics - Purge Tables and Files.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Quiz_DDLs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Quiz_DDLs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SCH-Create-Function-utc2local.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SCH-Create-Function-utc2local.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SCH-DBA-database.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SCH-DBA-database.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SCH-event_GetEventData.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SCH-event_GetEventData.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SCH-usp_collect_performance_metrics.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SCH-usp_collect_performance_metrics.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SCH-Virtual File Stats.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SCH-Virtual File Stats.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SCH-Waits-Stats-Collection.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>SCH-Waits-Stats-Collection.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Scripts.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Scripts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Setup [DBA] db.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>Setup [DBA] db.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Support.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL Support.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SqlAgentJob - cmdExec Type.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SqlAgentJob - cmdExec Type.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQLDBATools_DDLs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLDBATools_DDLs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="UnAttended-Sql-Installation.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>UnAttended-Sql-Installation.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items>
+        <FileNode Name="1. Create VHDs using Diskpart.ps1">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>1. Create VHDs using Diskpart.ps1</FullPath>
+        </FileNode>
+        <FileNode Name="2. Create VMs.ps1">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>2. Create VMs.ps1</FullPath>
+        </FileNode>
+        <FileNode Name="3. Installing a Guest OS into a VM.ps1">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>3. Installing a Guest OS into a VM.ps1</FullPath>
+        </FileNode>
+        <FileNode Name="4. Post OS Installation - Initialize Other Disk Drives.ps1">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>4. Post OS Installation - Initialize Other Disk Drives.ps1</FullPath>
+        </FileNode>
+        <FileNode Name="5. Post OS Installation - Add Shared Folders VirtualBox.ps1">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>5. Post OS Installation - Add Shared Folders VirtualBox.ps1</FullPath>
+        </FileNode>
+        <FileNode Name="SQLDBATools.zip">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQLDBATools.zip</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>

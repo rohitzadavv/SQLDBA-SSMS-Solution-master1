@@ -1,0 +1,280 @@
+<?xml version="1.0"?>
+<SqlWorkbenchSqlProject xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" Name="Misscellaneous Queries">
+  <Items>
+    <LogicalFolder Name="Connections" Type="2" Sorted="true">
+      <Items>
+        <ConnectionNode Name="(local):MSI\ajayd">
+          <Created>2020-04-13T17:43:46.957843+05:30</Created>
+          <Type>SQL</Type>
+          <Server>(local)</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>sqldbatools</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="LOCALHOST:MSI\ajayd">
+          <Created>2020-04-14T09:17:10.2941827+05:30</Created>
+          <Type>SQL</Type>
+          <Server>LOCALHOST</Server>
+          <UserName />
+          <Authentication>Windows Authentication</Authentication>
+          <InitialDB>master</InitialDB>
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+        <ConnectionNode Name="sqla:sa">
+          <Created>2020-04-20T18:41:08.1726728+05:30</Created>
+          <Type>SQL</Type>
+          <Server>sqla</Server>
+          <UserName>sa</UserName>
+          <Authentication>SQL</Authentication>
+          <InitialDB />
+          <LoginTimeout>30</LoginTimeout>
+          <ExecutionTimeout>0</ExecutionTimeout>
+          <ConnectionProtocol>NotSpecified</ConnectionProtocol>
+          <ApplicationName>Microsoft SQL Server Management Studio - Query</ApplicationName>
+        </ConnectionNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Queries" Type="0" Sorted="true">
+      <Items>
+        <FileNode Name="Aadhar Loan Calculator.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Aadhar Loan Calculator.sql</FullPath>
+        </FileNode>
+        <FileNode Name="AO_RoleSwitch_History.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>AO_RoleSwitch_History.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Backup Restore CreateDate Test.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Backup Restore CreateDate Test.sql</FullPath>
+        </FileNode>
+        <FileNode Name="BCP-QueryOut.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>BCP-QueryOut.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Combine-Perfmon-BLG-Files.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Combine-Perfmon-BLG-Files.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Command Prompt.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Command Prompt.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Create Perfmon Collector.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Create Perfmon Collector.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Cross-Server-Database-Tables-RowCount-Comparision.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Cross-Server-Database-Tables-RowCount-Comparision.sql</FullPath>
+        </FileNode>
+        <FileNode Name="dbo.usp_ConvertQuery2HTMLTable.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>dbo.usp_ConvertQuery2HTMLTable.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Error-Trying-2-Load-Assembly.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Error-Trying-2-Load-Assembly.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Find Long Running Query.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Find Long Running Query.sql</FullPath>
+        </FileNode>
+        <FileNode Name="FOR XML PATH.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>FOR XML PATH.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get-EventLog-SQLCluster.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get-EventLog-SQLCluster.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Get-Process-Locking-File.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Get-Process-Locking-File.sql</FullPath>
+        </FileNode>
+        <FileNode Name="HADR or Mirroring.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>HADR or Mirroring.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Kill All Session for DB.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Kill All Session for DB.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Log-Off-Users-with-PowerShell.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Log-Off-Users-with-PowerShell.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Maintainence - Delete files older than 72 hours.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintainence - Delete files older than 72 hours.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Maintainence - Delete folder-files older than 120 hours.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Maintainence - Delete folder-files older than 120 hours.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Powershell - Stop - SQLServices.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Powershell - Stop - SQLServices.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PowerShell Commands - iCacls.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:(local):True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>(local)</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>PowerShell Commands - iCacls.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Powershell-Add-Local-Administrator.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Powershell-Add-Local-Administrator.sql</FullPath>
+        </FileNode>
+        <FileNode Name="PS-Keep-Skype-Alive.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>PS-Keep-Skype-Alive.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Replace-Words-In-Body-Text-HTML.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Replace-Words-In-Body-Text-HTML.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Return Query Output as HTML Table.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Return Query Output as HTML Table.sql</FullPath>
+        </FileNode>
+        <FileNode Name="RoboCopy.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:LOCALHOST:True</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>LOCALHOST</AssociatedConnSrvName>
+          <AssociatedConnUserName />
+          <FullPath>RoboCopy.sql</FullPath>
+        </FileNode>
+        <FileNode Name="sp_Kill.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>sp_Kill.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SQL Server Error Logs.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SQL Server Error Logs.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SqlCluster-Troubleshooting.sql">
+          <AssociatedConnectionMoniker>8c91a03d-f9b4-46c0-a305-b5dcc79ff907:sqla:False:sa</AssociatedConnectionMoniker>
+          <AssociatedConnSrvName>sqla</AssociatedConnSrvName>
+          <AssociatedConnUserName>sa</AssociatedConnUserName>
+          <FullPath>SqlCluster-Troubleshooting.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Sql-Installation-Hosts.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Sql-Installation-Hosts.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Sql-Installation-Powershell-Codes.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Sql-Installation-Powershell-Codes.sql</FullPath>
+        </FileNode>
+        <FileNode Name="SSMS Tricks 01.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>SSMS Tricks 01.sql</FullPath>
+        </FileNode>
+        <FileNode Name="System Memory Usage.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>System Memory Usage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TableSizeMetrics - RecordCount n PageCount.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TableSizeMetrics - RecordCount n PageCount.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tell Me About Yourself.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Tell Me About Yourself.sql</FullPath>
+        </FileNode>
+        <FileNode Name="Tempdb_Usage.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>Tempdb_Usage.sql</FullPath>
+        </FileNode>
+        <FileNode Name="TempDb-Shrink-LogFile-Loop.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>TempDb-Shrink-LogFile-Loop.sql</FullPath>
+        </FileNode>
+        <FileNode Name="VSCode-Settings-General.sql">
+          <AssociatedConnectionMoniker />
+          <AssociatedConnSrvName />
+          <AssociatedConnUserName />
+          <FullPath>VSCode-Settings-General.sql</FullPath>
+        </FileNode>
+      </Items>
+    </LogicalFolder>
+    <LogicalFolder Name="Miscellaneous" Type="3" Sorted="true">
+      <Items />
+    </LogicalFolder>
+  </Items>
+</SqlWorkbenchSqlProject>
